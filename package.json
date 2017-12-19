@@ -1,0 +1,22 @@
+{
+  "name": "sajgal.com",
+  "version": "1.0.0",
+  "description": "Personal site + portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "keywords": [
+    "flexbox",
+    "grid",
+    "html",
+    "scss"
+  ],
+  "author": "Matej Sajgal",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
