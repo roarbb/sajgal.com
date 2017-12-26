@@ -6,7 +6,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template: 50px auto 40px / auto;
+  grid-template: 50px auto 60px / auto;
   height: 100vh; }
 
 header {
@@ -51,29 +51,30 @@ main {
 
 footer {
   grid-area: 3 / 1 / 4 / -1;
-  text-align: center;
-  padding: 0 20px; }
-  footer .social-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-around; }
-    footer .social-nav ul li {
-      display: inline-block;
-      padding: 7px;
-      cursor: pointer; }
-      footer .social-nav ul li a {
-        display: block;
-        height: 30px;
-        width: 30px; }
-      footer .social-nav ul li.icon-linkedin svg path {
-        fill: #0077b5; }
-      footer .social-nav ul li.icon-linkedin:hover {
-        background: #0077b5; }
-        footer .social-nav ul li.icon-linkedin:hover path {
-          fill: #fdfffc; }
-      footer .social-nav ul li:hover {
-        background: #c14947;
-        color: #fdfffc;
-        transform: rotate(-5deg); }
+  text-align: center; }
+  footer .social-nav {
+    height: 100%; }
+    footer .social-nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-around; }
+      footer .social-nav ul li {
+        display: inline-block;
+        padding: 7px;
+        cursor: pointer; }
+        footer .social-nav ul li a {
+          display: block;
+          height: 30px;
+          width: 30px; }
+        footer .social-nav ul li.icon-linkedin svg path {
+          fill: #0077b5; }
+        footer .social-nav ul li.icon-linkedin:hover {
+          background: #0077b5; }
+          footer .social-nav ul li.icon-linkedin:hover path {
+            fill: #fdfffc; }
+        footer .social-nav ul li:hover {
+          background: #c14947;
+          color: #fdfffc;
+          transform: rotate(-5deg); }
