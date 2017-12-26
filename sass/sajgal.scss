@@ -90,6 +90,28 @@ footer {
         padding: 7px;
         cursor: pointer;
 
+        a {
+          display: block;
+          height: 30px;
+          width: 30px;
+        }
+
+        &.icon-linkedin {
+          svg {
+            path {
+              fill: #0077b5;
+            }
+          }
+
+          &:hover {
+            background: #0077b5;
+
+            path {
+              fill: $color_white;
+            }
+          }
+        }
+
         &:hover {
           background: $color_red;
           color: $color_white;

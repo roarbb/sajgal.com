@@ -63,6 +63,16 @@ footer {
       display: inline-block;
       padding: 7px;
       cursor: pointer; }
+      footer .social-nav ul li a {
+        display: block;
+        height: 30px;
+        width: 30px; }
+      footer .social-nav ul li.icon-linkedin svg path {
+        fill: #0077b5; }
+      footer .social-nav ul li.icon-linkedin:hover {
+        background: #0077b5; }
+        footer .social-nav ul li.icon-linkedin:hover path {
+          fill: #fdfffc; }
       footer .social-nav ul li:hover {
         background: #c14947;
         color: #fdfffc;
