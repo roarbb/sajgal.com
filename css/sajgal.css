@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Eczar|Open+Sans");
 body {
   background: #fdfffc;
   color: #2b2c28;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 .grid {
   display: grid;
@@ -47,11 +47,17 @@ video {
 main {
   grid-area: 2 / 1 / 3 / -1;
   align-self: center;
-  padding: 20% 20px 0; }
+  padding: 10% 20px 0; }
+  main h1 {
+    font-family: "Eczar", serif; }
+  main .bio {
+    width: 60%;
+    font-family: "Open Sans", serif; }
 
 footer {
   grid-area: 3 / 1 / 4 / -1;
-  text-align: center; }
+  text-align: center;
+  padding: 0 20px; }
   footer .social-nav {
     height: 100%; }
     footer .social-nav ul {
@@ -59,20 +65,32 @@ footer {
       padding: 0;
       list-style: none;
       display: flex;
-      justify-content: space-around; }
+      justify-content: flex-end; }
       footer .social-nav ul li {
         display: inline-block;
         padding: 7px;
         cursor: pointer; }
         footer .social-nav ul li a {
           display: block;
-          height: 30px;
-          width: 30px; }
+          height: 25px;
+          width: 25px; }
         footer .social-nav ul li.icon-linkedin svg path {
           fill: #0077b5; }
         footer .social-nav ul li.icon-linkedin:hover {
           background: #0077b5; }
           footer .social-nav ul li.icon-linkedin:hover path {
+            fill: #fdfffc; }
+        footer .social-nav ul li.icon-facebook svg path {
+          fill: #3b5998; }
+        footer .social-nav ul li.icon-facebook:hover {
+          background: #3b5998; }
+          footer .social-nav ul li.icon-facebook:hover path {
+            fill: #fdfffc; }
+        footer .social-nav ul li.icon-instagram svg path {
+          fill: #e4405f; }
+        footer .social-nav ul li.icon-instagram:hover {
+          background: #e4405f; }
+          footer .social-nav ul li.icon-instagram:hover path {
             fill: #fdfffc; }
         footer .social-nav ul li:hover {
           background: #c14947;
