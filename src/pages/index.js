@@ -7,7 +7,7 @@ const IndexPage = node => {
   const content = homepage.edges[0].node.content.childMarkdownRemark.html;
 
   return (
-    <div>
+    <div className="bio">
       <h1>{title}</h1>
       <div dangerouslySetInnerHTML={{ __html: content }} />
     </div>
