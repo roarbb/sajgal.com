@@ -1,26 +1,26 @@
 {
-  "name": "sajgal.com",
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
   "version": "1.0.0",
-  "description": "Personal site + portfolio",
-  "main": "index.html",
-  "scripts": {
-    "dev": "gulp",
-    "start": "node app.js"
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.223",
+    "gatsby-link": "^1.6.38",
+    "gatsby-plugin-react-helmet": "^2.0.6",
+    "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "flexbox",
-    "grid",
-    "html",
-    "scss"
+    "gatsby"
   ],
-  "author": "Matej Sajgal",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-sass": "^3.1.0"
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "express": "^4.16.2"
+  "devDependencies": {
+    "prettier": "^1.11.1"
   }
 }
